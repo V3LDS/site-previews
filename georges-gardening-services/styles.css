@@ -114,7 +114,8 @@ em{font-style:italic;color:var(--clay);font-weight:500}
 
 /* reviews */
 .review-groups{display:grid;gap:44px}
-.rgroup{display:grid;gap:16px;align-content:start}
+.rgroup{display:flex;flex-direction:column;gap:16px}
+.rgroup .more{margin-top:auto}
 .rhead{border-bottom:1.5px solid var(--eucalypt);padding-bottom:12px;display:flex;flex-direction:column;gap:6px}
 .rhead h3{font-size:1.6rem}
 .rhead p{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink-soft)}
